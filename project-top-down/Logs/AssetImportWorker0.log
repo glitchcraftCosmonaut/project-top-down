@@ -1,0 +1,1543 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 15305 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/haitsam/Documents/unity/project-top-down/project-top-down
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59839
+Successfully changed project path to: C:/Users/haitsam/Documents/unity/project-top-down/project-top-down
+C:/Users/haitsam/Documents/unity/project-top-down/project-top-down
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/haitsam/Documents/unity/project-top-down/project-top-down/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Mobile Graphics (ID=0x15dd)
+    Vendor:   
+    VRAM:     7652 MB
+    Driver:   27.20.22002.57
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.004182 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 54.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.175 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001463 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 64.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.557 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1828 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2276.
+Total: 3.607700 ms (FindLiveObjects: 0.340500 ms CreateObjectMapping: 0.090200 ms MarkObjects: 3.066600 ms  DeleteObjects: 0.108900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/Player/Red Hood/character slash.png
+  artifactKey: Guid(af1a4bd0f7d442d458eda64482e2a815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash.png using Guid(af1a4bd0f7d442d458eda64482e2a815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58a554db7cdaa5ce163d41715392b56') in 0.148265 seconds
+  Import took 0.153123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.631152 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash.png
+  artifactKey: Guid(af1a4bd0f7d442d458eda64482e2a815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash.png using Guid(af1a4bd0f7d442d458eda64482e2a815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff55e8599bd0c98a1ecc0da6fbb71ef') in 0.023616 seconds
+  Import took 0.028790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.155682 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash.png
+  artifactKey: Guid(af1a4bd0f7d442d458eda64482e2a815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash.png using Guid(af1a4bd0f7d442d458eda64482e2a815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533800e7dfd3124f0d852c811fec841e') in 0.010975 seconds
+  Import took 0.016512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.379234 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash.png
+  artifactKey: Guid(af1a4bd0f7d442d458eda64482e2a815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash.png using Guid(af1a4bd0f7d442d458eda64482e2a815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6fbb3201ff4423a4fe4f5e8a2243c5') in 0.014692 seconds
+  Import took 0.019459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 263.741786 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash.png
+  artifactKey: Guid(af1a4bd0f7d442d458eda64482e2a815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash.png using Guid(af1a4bd0f7d442d458eda64482e2a815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fc0b77fc89ee534dff0101ff5d0334') in 0.148337 seconds
+  Import took 0.153523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.248913 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash.png
+  artifactKey: Guid(af1a4bd0f7d442d458eda64482e2a815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash.png using Guid(af1a4bd0f7d442d458eda64482e2a815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4933fc54f80482727266d80b1cf4de') in 0.104955 seconds
+  Import took 0.110085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.028109 seconds.
+  path: Assets/Sprites/Player/Red Hood/character.png
+  artifactKey: Guid(ba049dfe5093b2442a0befcb4d6e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character.png using Guid(ba049dfe5093b2442a0befcb4d6e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1017189eddab316102ac47a105cae7db') in 0.116954 seconds
+  Import took 0.121743 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001456 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.449 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 3.756600 ms (FindLiveObjects: 0.329900 ms CreateObjectMapping: 0.074000 ms MarkObjects: 3.318200 ms  DeleteObjects: 0.032400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.175941 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash.png
+  artifactKey: Guid(af1a4bd0f7d442d458eda64482e2a815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash.png using Guid(af1a4bd0f7d442d458eda64482e2a815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f490f4253e795388d8131d020b26fa') in 0.187628 seconds
+  Import took 0.193169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1397.234654 seconds.
+  path: Assets/Sprites/Player/Red Hood/character horizontal.png
+  artifactKey: Guid(bfa558712768f3f4da532659b06b69ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character horizontal.png using Guid(bfa558712768f3f4da532659b06b69ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d90741e002a90a201e6110a603b6f25') in 0.064170 seconds
+  Import took 0.069044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Sprites/Player/Red Hood/character southl.png
+  artifactKey: Guid(ad1d1947930985648948c1484b67692b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character southl.png using Guid(ad1d1947930985648948c1484b67692b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c273b092969257035650303a1f1a5a') in 0.026753 seconds
+  Import took 0.031685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000987 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8957f2730984708996c5dea34be2c72') in 0.026765 seconds
+  Import took 0.032121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Sprites/Player/Red Hood/character northl.png
+  artifactKey: Guid(69fb285f766ca914aa0cfa086b4b13ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character northl.png using Guid(69fb285f766ca914aa0cfa086b4b13ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bd75e322c2409340d04ce5fba47a19') in 0.022892 seconds
+  Import took 0.027476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.740038 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32419d1dd9f12f92ae5b71c9246a3b85') in 0.014828 seconds
+  Import took 0.018778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.037244 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd655b41b49b3bd966af910f88bc0654') in 0.153230 seconds
+  Import took 0.157797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.603489 seconds.
+  path: Assets/Sprites/Player/Red Hood/character northl.png
+  artifactKey: Guid(69fb285f766ca914aa0cfa086b4b13ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character northl.png using Guid(69fb285f766ca914aa0cfa086b4b13ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2818585929fc4d3b071dcb5438b1e9eb') in 0.013085 seconds
+  Import took 0.017726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.189094 seconds.
+  path: Assets/Sprites/Player/Red Hood/character northl.png
+  artifactKey: Guid(69fb285f766ca914aa0cfa086b4b13ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character northl.png using Guid(69fb285f766ca914aa0cfa086b4b13ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612d41893ff58312dc9651f8b1342c91') in 0.052709 seconds
+  Import took 0.056618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.989611 seconds.
+  path: Assets/Sprites/Player/Red Hood/character horizontal.png
+  artifactKey: Guid(bfa558712768f3f4da532659b06b69ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character horizontal.png using Guid(bfa558712768f3f4da532659b06b69ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e9635ac02cbe7294dbc48be1981e5c') in 0.015842 seconds
+  Import took 0.020943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.335491 seconds.
+  path: Assets/Sprites/Player/Red Hood/character horizontal.png
+  artifactKey: Guid(bfa558712768f3f4da532659b06b69ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character horizontal.png using Guid(bfa558712768f3f4da532659b06b69ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0d93f0916fa1301a25206b8787483b') in 0.052002 seconds
+  Import took 0.056592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.328048 seconds.
+  path: Assets/Sprites/Player/Red Hood/character southl.png
+  artifactKey: Guid(ad1d1947930985648948c1484b67692b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character southl.png using Guid(ad1d1947930985648948c1484b67692b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7f2cacab9c83f7d76ffcadf5ba56e8') in 0.016895 seconds
+  Import took 0.021396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.342212 seconds.
+  path: Assets/Sprites/Player/Red Hood/character southl.png
+  artifactKey: Guid(ad1d1947930985648948c1484b67692b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character southl.png using Guid(ad1d1947930985648948c1484b67692b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ed9084189e03e9f684c10bf73edc30') in 0.054245 seconds
+  Import took 0.058951 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002007 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.355 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2364.
+Total: 3.799200 ms (FindLiveObjects: 0.421900 ms CreateObjectMapping: 0.172900 ms MarkObjects: 3.183400 ms  DeleteObjects: 0.019400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 583.868778 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0d46872a560710b167037edbe31a74') in 0.201789 seconds
+  Import took 0.207989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.362965 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86900cd539618505d0c23fdada09361f') in 0.159585 seconds
+  Import took 0.166252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.420927 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb0a04d54f0881a3d47352496342c4e') in 0.125384 seconds
+  Import took 0.129882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.161299 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac607f9da273a504edb948b9dabecdbc') in 0.124579 seconds
+  Import took 0.129006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.032081 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6634b78b64afcbf6b2be03b6df09e90') in 0.124861 seconds
+  Import took 0.130818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.457335 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f199395acfda62523b85348aff385e0') in 0.124273 seconds
+  Import took 0.129911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.888541 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612896d0054a4e6f4b1a0170de6a6af9') in 0.084437 seconds
+  Import took 0.089040 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001877 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.379 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2437.
+Total: 4.276000 ms (FindLiveObjects: 0.462900 ms CreateObjectMapping: 0.172700 ms MarkObjects: 3.612000 ms  DeleteObjects: 0.026300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.894645 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3f2d95692c2b10c0ce2f6183095d2c') in 0.165644 seconds
+  Import took 0.171264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 578.462801 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77288184961a59c8faf1a0b399d9e57') in 0.106019 seconds
+  Import took 0.111245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.795816 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea08a0185a5d10c035715bdac07b822d') in 0.106387 seconds
+  Import took 0.111276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.100977 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a91b6d512c47c5c175e3beb5f2676cf') in 0.092560 seconds
+  Import took 0.097982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.106114 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73ff5ca36fb0ef73b22ec9000772412') in 0.102754 seconds
+  Import took 0.108413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.341248 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4764509bf70f8f19ea4cc2a4e6bd3f78') in 0.089118 seconds
+  Import took 0.093838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.677249 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56060d68b6f56e6bd91aed5337e78383') in 0.101714 seconds
+  Import took 0.107116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.085887 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58228396fa3867a3203a4bf077b99826') in 0.092705 seconds
+  Import took 0.096613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.416774 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb8836d9a963671e89bd2214ba6b5f8') in 0.111736 seconds
+  Import took 0.116248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.579055 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf08b9c1fd4570dee282907f69de5cd') in 0.101150 seconds
+  Import took 0.106292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.230695 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b03509c6c3e2a4b04a57fb4c098048f') in 0.099999 seconds
+  Import took 0.105014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.316856 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b475aa2abd24d63fc788ef813af14dc') in 0.096967 seconds
+  Import took 0.101408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.909611 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a030a7e5ba020b122b3959761a0498') in 0.096414 seconds
+  Import took 0.101347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.803496 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57922a9b122b9f1e45cd134f197ddc58') in 0.099405 seconds
+  Import took 0.104146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.445873 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e404f6355a37f1a95c83317f757ad4fb') in 0.097532 seconds
+  Import took 0.102458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.194238 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f7da36b39845a2a2603e6d19154359') in 0.105874 seconds
+  Import took 0.110831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.489085 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bacdf8a2bf535b088722c1d2f7e258') in 0.108808 seconds
+  Import took 0.113372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.370600 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e773f0e4c3931facc7914e59a7ee5ca0') in 0.110049 seconds
+  Import took 0.114677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.377366 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777adf012a99fa1031aec3cc23681a96') in 0.105422 seconds
+  Import took 0.110182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.281402 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2f5c4a9c258abfbceae9ac270b5689') in 0.103122 seconds
+  Import took 0.108254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.750396 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c67d349546c86f4b94589d9ab29e6a7') in 0.118564 seconds
+  Import took 0.124279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.063116 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbb39ae224102742a34f080a71def71') in 0.100364 seconds
+  Import took 0.104737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.364750 seconds.
+  path: Assets/Sprites/Player/Red Hood/character slash (2).png
+  artifactKey: Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character slash (2).png using Guid(4bc3bc61b1385754192672a100031f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92735ea3afaf0901d2f3747c99eea4c3') in 0.140287 seconds
+  Import took 0.146743 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001491 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.369 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2452.
+Total: 3.208600 ms (FindLiveObjects: 0.276400 ms CreateObjectMapping: 0.063200 ms MarkObjects: 2.844200 ms  DeleteObjects: 0.023200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 292.579698 seconds.
+  path: Assets/Sprites/Player/Red Hood/character.png
+  artifactKey: Guid(ba049dfe5093b2442a0befcb4d6e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character.png using Guid(ba049dfe5093b2442a0befcb4d6e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b853d28c2112282b7c0cd549d2a0a6') in 0.158170 seconds
+  Import took 0.162407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.102427 seconds.
+  path: Assets/Sprites/Player/Red Hood/character.png
+  artifactKey: Guid(ba049dfe5093b2442a0befcb4d6e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character.png using Guid(ba049dfe5093b2442a0befcb4d6e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb7ee9cef626b9385a82944df503005') in 0.108701 seconds
+  Import took 0.113680 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.411 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2457.
+Total: 2.729200 ms (FindLiveObjects: 0.285100 ms CreateObjectMapping: 0.066400 ms MarkObjects: 2.354500 ms  DeleteObjects: 0.021900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.934835 seconds.
+  path: Assets/Sprites/Player/Red Hood/character.png
+  artifactKey: Guid(ba049dfe5093b2442a0befcb4d6e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character.png using Guid(ba049dfe5093b2442a0befcb4d6e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab4408cb0fa7973bbb42ff226406ee9') in 0.165818 seconds
+  Import took 0.171369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.199046 seconds.
+  path: Assets/Sprites/Player/Red Hood/character.png
+  artifactKey: Guid(ba049dfe5093b2442a0befcb4d6e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character.png using Guid(ba049dfe5093b2442a0befcb4d6e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62eacb38c0b03e47ad839b25cf38424') in 0.114084 seconds
+  Import took 0.119099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.190880 seconds.
+  path: Assets/Sprites/Player/Red Hood/character.png
+  artifactKey: Guid(ba049dfe5093b2442a0befcb4d6e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character.png using Guid(ba049dfe5093b2442a0befcb4d6e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbbfad7da7861908a5e53cca1c1bb1f') in 0.098872 seconds
+  Import took 0.103021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 231.272890 seconds.
+  path: Assets/Sprites/Player/Red Hood/character.png
+  artifactKey: Guid(ba049dfe5093b2442a0befcb4d6e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Red Hood/character.png using Guid(ba049dfe5093b2442a0befcb4d6e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7cb94da90731edfe99775fb1deaadf') in 0.115087 seconds
+  Import took 0.120526 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001450 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.284 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2466.
+Total: 2.800200 ms (FindLiveObjects: 0.383300 ms CreateObjectMapping: 0.109900 ms MarkObjects: 2.280000 ms  DeleteObjects: 0.025500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1597.519958 seconds.
+  path: Assets/Scripts/Player/Player.cs
+  artifactKey: Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Player.cs using Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9c8a79088ab08ebb25981a8e5af0ba') in 0.034340 seconds
+  Import took 0.038702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017552 seconds.
+  path: Assets/Scripts/Player/Player.cs
+  artifactKey: Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Player.cs using Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9c8a79088ab08ebb25981a8e5af0ba') in 0.004294 seconds
+  Import took 0.008669 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002813 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.498 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2470.
+Total: 4.315000 ms (FindLiveObjects: 0.374700 ms CreateObjectMapping: 0.111800 ms MarkObjects: 3.787800 ms  DeleteObjects: 0.038500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.679211 seconds.
+  path: Assets/Scripts/Player/Player.cs
+  artifactKey: Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Player.cs using Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917526e5acc9d968c146c7abc7133133') in 0.009064 seconds
+  Import took 0.016121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058238 seconds.
+  path: Assets/Scripts/Player/Player.cs
+  artifactKey: Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Player.cs using Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917526e5acc9d968c146c7abc7133133') in 0.004941 seconds
+  Import took 0.010159 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001798 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.337 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2474.
+Total: 4.275400 ms (FindLiveObjects: 0.410800 ms CreateObjectMapping: 0.101500 ms MarkObjects: 3.730100 ms  DeleteObjects: 0.031000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002103 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.578 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1835 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2497.
+Total: 5.813000 ms (FindLiveObjects: 0.897900 ms CreateObjectMapping: 0.268400 ms MarkObjects: 4.603800 ms  DeleteObjects: 0.039400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 400.165760 seconds.
+  path: Assets/CodeMonkey/Utils
+  artifactKey: Guid(d900c58c01968cd42bb98e37d8e4d05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodeMonkey/Utils using Guid(d900c58c01968cd42bb98e37d8e4d05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ba14e50a0ba8edbed0d9accaa0f10c') in 0.014378 seconds
+  Import took 0.018368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.166455 seconds.
+  path: Assets/CodeMonkey/Utils/FunctionPeriodic.cs
+  artifactKey: Guid(f522bd6f08a5c984a9512bb60ebc1818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodeMonkey/Utils/FunctionPeriodic.cs using Guid(f522bd6f08a5c984a9512bb60ebc1818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5f570fbe746e697000afce7c839ad9') in 0.011903 seconds
+  Import took 0.016842 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002828 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.572 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1835 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2501.
+Total: 4.368800 ms (FindLiveObjects: 0.291300 ms CreateObjectMapping: 0.140500 ms MarkObjects: 3.892700 ms  DeleteObjects: 0.042700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.323 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2486.
+Total: 3.638600 ms (FindLiveObjects: 0.513500 ms CreateObjectMapping: 0.197500 ms MarkObjects: 2.878300 ms  DeleteObjects: 0.046900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.365 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2490.
+Total: 4.412700 ms (FindLiveObjects: 0.371800 ms CreateObjectMapping: 0.087100 ms MarkObjects: 3.927900 ms  DeleteObjects: 0.024300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001479 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.375 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2494.
+Total: 4.035700 ms (FindLiveObjects: 0.579100 ms CreateObjectMapping: 0.276500 ms MarkObjects: 3.151900 ms  DeleteObjects: 0.026000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2546.740701 seconds.
+  path: Assets/Scripts/Player/Player.cs
+  artifactKey: Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Player.cs using Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b503744d06012fc76ad410d519837d') in 0.013674 seconds
+  Import took 0.018166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004751 seconds.
+  path: Assets/Scripts/Player/Player.cs
+  artifactKey: Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Player.cs using Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b503744d06012fc76ad410d519837d') in 0.003894 seconds
+  Import took 0.008340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.859806 seconds.
+  path: Assets/Scripts/Player/PlayerController.cs
+  artifactKey: Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerController.cs using Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22719b7e481b9a324b1a64039bfb8fce') in 0.012702 seconds
+  Import took 0.020171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.234839 seconds.
+  path: Assets/Scripts/Player/PlayerController.cs
+  artifactKey: Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerController.cs using Guid(eb3c64a19eb4bc94e98312d21a6bc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ec436dfa36047e1a6f4d8e73ffe10a') in 0.007123 seconds
+  Import took 0.012040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.759458 seconds.
+  path: Assets/_/Circle_Outlined.png
+  artifactKey: Guid(25a5a36a9ebbe7d4f90920044388aa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Circle_Outlined.png using Guid(25a5a36a9ebbe7d4f90920044388aa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6b0870f9a67bcde9dad4104c6ca19e') in 0.085679 seconds
+  Import took 0.090242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.638225 seconds.
+  path: Assets/Scripts/Enemy/EnemyBase.cs
+  artifactKey: Guid(efc1438b6b72b644c83972a9591f7f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyBase.cs using Guid(efc1438b6b72b644c83972a9591f7f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8642709853125b66306edeb1ff7f1966') in 0.013197 seconds
+  Import took 0.018953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.970227 seconds.
+  path: Assets/Scripts/Enemy/EnemyBase.cs
+  artifactKey: Guid(efc1438b6b72b644c83972a9591f7f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyBase.cs using Guid(efc1438b6b72b644c83972a9591f7f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27d864a4af2aaf21604c397e0176e7f') in 0.005760 seconds
+  Import took 0.011352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.897602 seconds.
+  path: Assets/Scripts/Player/PlayerAnimation.cs
+  artifactKey: Guid(44b40f8dd74872c4b80d45a4146081f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerAnimation.cs using Guid(44b40f8dd74872c4b80d45a4146081f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7dae98523cb63f3b473ba4d37525b24') in 0.011049 seconds
+  Import took 0.015113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002798 seconds.
+  path: Assets/Scripts/Player/PlayerAnimation.cs
+  artifactKey: Guid(44b40f8dd74872c4b80d45a4146081f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerAnimation.cs using Guid(44b40f8dd74872c4b80d45a4146081f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7dae98523cb63f3b473ba4d37525b24') in 0.004404 seconds
+  Import took 0.008699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.115378 seconds.
+  path: Assets/_/Base/2DRenderer.asset
+  artifactKey: Guid(ed10a5df6f26b374193c068a65e675a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/2DRenderer.asset using Guid(ed10a5df6f26b374193c068a65e675a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342057e8e5501e08b6c347bb81afb6d6') in 0.015928 seconds
+  Import took 0.019967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/_/Base/PostProcessingProfile.asset
+  artifactKey: Guid(9529e989bb68eb04eb7dc19284697448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/PostProcessingProfile.asset using Guid(9529e989bb68eb04eb7dc19284697448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728bea7205841015615b1a1c07e49245') in 0.011778 seconds
+  Import took 0.015717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/_/Base/NoFriction.physicsMaterial2D
+  artifactKey: Guid(dfa7a37e29caa4d44a361591eebb2ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/NoFriction.physicsMaterial2D using Guid(dfa7a37e29caa4d44a361591eebb2ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93da4f99c920dc5ae2fe748cdcfa705e') in 0.013096 seconds
+  Import took 0.017640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/_/Base/LightweightRenderPipelineAsset.asset
+  artifactKey: Guid(da422ab582ee5dc4aaa1763c7a37cbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/LightweightRenderPipelineAsset.asset using Guid(da422ab582ee5dc4aaa1763c7a37cbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8bb29b77960c602f2ea4947c0fb7fa0') in 0.011335 seconds
+  Import took 0.015482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.261751 seconds.
+  path: Assets/_/GameScene_CollisionTrigger.unity
+  artifactKey: Guid(80eada32c91be57428e58c3978442207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/GameScene_CollisionTrigger.unity using Guid(80eada32c91be57428e58c3978442207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdc200b717cc271876d4cde78b19b48') in 0.011321 seconds
+  Import took 0.015078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.748654 seconds.
+  path: Assets/_/Base/BaseScripts/Character_Base.cs
+  artifactKey: Guid(c5f89fd7dcc7c814da9839867ec9baee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Base/BaseScripts/Character_Base.cs using Guid(c5f89fd7dcc7c814da9839867ec9baee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250c5540afb7accd72d4d53846bc09f3') in 0.012500 seconds
+  Import took 0.017405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.032461 seconds.
+  path: Assets/MeleeCombatSystem/Scripts
+  artifactKey: Guid(42dc83bf94a5e3841847347eb953fb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeleeCombatSystem/Scripts using Guid(42dc83bf94a5e3841847347eb953fb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d55f6558fc26a48535bcc10ebac706') in 0.099779 seconds
+  Import took 0.103726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.892068 seconds.
+  path: Assets/MeleeCombatSystem/Scripts/CharacterController2D.cs
+  artifactKey: Guid(fa72477d98cd27c499c50a2942443234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeleeCombatSystem/Scripts/CharacterController2D.cs using Guid(fa72477d98cd27c499c50a2942443234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504af112da246cf3b6bf524b45cc676c') in 0.009978 seconds
+  Import took 0.014126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.146588 seconds.
+  path: Assets/MeleeCombatSystem/Scripts/EnemySpawner.cs
+  artifactKey: Guid(e766dcc71c872d642a7db839a8dc8cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeleeCombatSystem/Scripts/EnemySpawner.cs using Guid(e766dcc71c872d642a7db839a8dc8cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c7beb19d6e59eb80782156b05017e3') in 0.013038 seconds
+  Import took 0.018216 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002122 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.426 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2500.
+Total: 2.939700 ms (FindLiveObjects: 0.319100 ms CreateObjectMapping: 0.070500 ms MarkObjects: 2.522800 ms  DeleteObjects: 0.025800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.153483 seconds.
+  path: Assets/Scenes/Sandbox.unity
+  artifactKey: Guid(dcf11161ac57f3d4192faf9c067d5bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sandbox.unity using Guid(dcf11161ac57f3d4192faf9c067d5bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89455226929b1894e2660731463bf83') in 0.023351 seconds
+  Import took 0.027447 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002288 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.379 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2504.
+Total: 3.788000 ms (FindLiveObjects: 0.451800 ms CreateObjectMapping: 0.129100 ms MarkObjects: 3.181200 ms  DeleteObjects: 0.023500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.937864 seconds.
+  path: Assets/Animation/Player/Red hood/Player Red Hood.controller
+  artifactKey: Guid(330da43efe702b74899eb2b29e631384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/Player Red Hood.controller using Guid(330da43efe702b74899eb2b29e631384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b363cb5e9d4bba2b32d738123a24b50b') in 0.046316 seconds
+  Import took 0.051670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 475.648021 seconds.
+  path: Assets/Animation/Player/Red hood/Player Red Hood.controller
+  artifactKey: Guid(330da43efe702b74899eb2b29e631384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/Player Red Hood.controller using Guid(330da43efe702b74899eb2b29e631384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105222cfcefb031857a0bbaa31f6bc16') in 0.014482 seconds
+  Import took 0.019016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.249397 seconds.
+  path: Assets/Animation/Player/Red hood/Player Red Hood.controller
+  artifactKey: Guid(330da43efe702b74899eb2b29e631384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/Player Red Hood.controller using Guid(330da43efe702b74899eb2b29e631384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1a846b5a6a38f14f05c989bf12b203') in 0.012873 seconds
+  Import took 0.017829 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001616 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.695 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2508.
+Total: 3.261700 ms (FindLiveObjects: 0.407800 ms CreateObjectMapping: 0.250100 ms MarkObjects: 2.577300 ms  DeleteObjects: 0.024000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001834 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.474 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2512.
+Total: 3.165800 ms (FindLiveObjects: 0.413500 ms CreateObjectMapping: 0.109700 ms MarkObjects: 2.617400 ms  DeleteObjects: 0.023200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002008 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.437 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2516.
+Total: 3.792300 ms (FindLiveObjects: 0.455500 ms CreateObjectMapping: 0.124200 ms MarkObjects: 3.187600 ms  DeleteObjects: 0.023400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 311.303986 seconds.
+  path: Assets/Animation/Player/Red hood/north slash.anim
+  artifactKey: Guid(9348b536e9dedaf458de7268afad290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/north slash.anim using Guid(9348b536e9dedaf458de7268afad290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ace1f9712d8f15511f687886e3225c') in 0.032189 seconds
+  Import took 0.035961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.277079 seconds.
+  path: Assets/Animation/Player/Red hood/north slash 2nd combo.anim
+  artifactKey: Guid(0d9af68ce60c29146af753961ae739d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/north slash 2nd combo.anim using Guid(0d9af68ce60c29146af753961ae739d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354632932ea9e79913b185a8e2af0b29') in 0.011876 seconds
+  Import took 0.016462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009150 seconds.
+  path: Assets/Animation/Player/Red hood/north slash 2nd combo.anim
+  artifactKey: Guid(0d9af68ce60c29146af753961ae739d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/north slash 2nd combo.anim using Guid(0d9af68ce60c29146af753961ae739d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354632932ea9e79913b185a8e2af0b29') in 0.005762 seconds
+  Import took 0.010698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.764148 seconds.
+  path: Assets/Animation/Player/Red hood/Right Slash.anim
+  artifactKey: Guid(11421004aa3e69a4a9ac4d614846dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/Right Slash.anim using Guid(11421004aa3e69a4a9ac4d614846dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4e93cba8bb83c64b57a1982fca679a') in 0.013334 seconds
+  Import took 0.017685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009463 seconds.
+  path: Assets/Animation/Player/Red hood/Right Slash.anim
+  artifactKey: Guid(11421004aa3e69a4a9ac4d614846dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/Right Slash.anim using Guid(11421004aa3e69a4a9ac4d614846dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4e93cba8bb83c64b57a1982fca679a') in 0.006088 seconds
+  Import took 0.010730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.176444 seconds.
+  path: Assets/Animation/Player/Red hood/Right Slash 2nd combo.anim
+  artifactKey: Guid(09995ec0d9d9dc5479d524dae012f1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/Right Slash 2nd combo.anim using Guid(09995ec0d9d9dc5479d524dae012f1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533619aa3a25eb6ddc63c63c25329d66') in 0.016252 seconds
+  Import took 0.022290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010312 seconds.
+  path: Assets/Animation/Player/Red hood/Right Slash 2nd combo.anim
+  artifactKey: Guid(09995ec0d9d9dc5479d524dae012f1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/Right Slash 2nd combo.anim using Guid(09995ec0d9d9dc5479d524dae012f1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533619aa3a25eb6ddc63c63c25329d66') in 0.006502 seconds
+  Import took 0.011167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.438498 seconds.
+  path: Assets/Animation/Player/Red hood/south slash.anim
+  artifactKey: Guid(d391c26916a952047ae807073de7405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/south slash.anim using Guid(d391c26916a952047ae807073de7405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fa7958e6499056c281b72a033d156c') in 0.012677 seconds
+  Import took 0.017035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007520 seconds.
+  path: Assets/Animation/Player/Red hood/south slash.anim
+  artifactKey: Guid(d391c26916a952047ae807073de7405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/south slash.anim using Guid(d391c26916a952047ae807073de7405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fa7958e6499056c281b72a033d156c') in 0.006500 seconds
+  Import took 0.010911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.974588 seconds.
+  path: Assets/Animation/Player/Red hood/south slash 2nd combo.anim
+  artifactKey: Guid(4fcc9aef4d196144db8ee97fbadbf382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/south slash 2nd combo.anim using Guid(4fcc9aef4d196144db8ee97fbadbf382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef927ddd1a0938b41d5debe6dc490521') in 0.011508 seconds
+  Import took 0.015778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016862 seconds.
+  path: Assets/Animation/Player/Red hood/south slash 2nd combo.anim
+  artifactKey: Guid(4fcc9aef4d196144db8ee97fbadbf382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/south slash 2nd combo.anim using Guid(4fcc9aef4d196144db8ee97fbadbf382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef927ddd1a0938b41d5debe6dc490521') in 0.005928 seconds
+  Import took 0.009787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.914333 seconds.
+  path: Assets/Animation/Player/Red hood/west slash 2nd combo.anim
+  artifactKey: Guid(0cf8955f7bcff0d42bffa1e0e7f5ff47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/west slash 2nd combo.anim using Guid(0cf8955f7bcff0d42bffa1e0e7f5ff47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e0a8854f21d3fd31e16188aa610e79') in 0.013064 seconds
+  Import took 0.016915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013359 seconds.
+  path: Assets/Animation/Player/Red hood/west slash 2nd combo.anim
+  artifactKey: Guid(0cf8955f7bcff0d42bffa1e0e7f5ff47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/west slash 2nd combo.anim using Guid(0cf8955f7bcff0d42bffa1e0e7f5ff47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e0a8854f21d3fd31e16188aa610e79') in 0.006604 seconds
+  Import took 0.011851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.764997 seconds.
+  path: Assets/Animation/Player/Red hood/west slash.anim
+  artifactKey: Guid(a6edffd7cd086694ea3302cdfa4e8a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/west slash.anim using Guid(a6edffd7cd086694ea3302cdfa4e8a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3652ef1032fe413d1ea0c9b69c862a35') in 0.013502 seconds
+  Import took 0.017594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.071144 seconds.
+  path: Assets/Animation/Player/Red hood/west slash.anim
+  artifactKey: Guid(a6edffd7cd086694ea3302cdfa4e8a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/west slash.anim using Guid(a6edffd7cd086694ea3302cdfa4e8a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d8a3bbe559b4abf590ac3905ff3454') in 0.006864 seconds
+  Import took 0.012291 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001771 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.670 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2520.
+Total: 3.676800 ms (FindLiveObjects: 0.293300 ms CreateObjectMapping: 0.071600 ms MarkObjects: 3.280400 ms  DeleteObjects: 0.029700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001490 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.612 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2524.
+Total: 2.924000 ms (FindLiveObjects: 0.285900 ms CreateObjectMapping: 0.066800 ms MarkObjects: 2.543700 ms  DeleteObjects: 0.026200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002147 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.439 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2528.
+Total: 3.223700 ms (FindLiveObjects: 0.526500 ms CreateObjectMapping: 0.111500 ms MarkObjects: 2.559400 ms  DeleteObjects: 0.024800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001438 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.622 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2532.
+Total: 3.476600 ms (FindLiveObjects: 0.476200 ms CreateObjectMapping: 0.092500 ms MarkObjects: 2.877600 ms  DeleteObjects: 0.027700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001776 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.609 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2536.
+Total: 3.942000 ms (FindLiveObjects: 0.404200 ms CreateObjectMapping: 0.091600 ms MarkObjects: 3.416200 ms  DeleteObjects: 0.028300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001784 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.424 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2540.
+Total: 3.088900 ms (FindLiveObjects: 0.363100 ms CreateObjectMapping: 0.068500 ms MarkObjects: 2.628600 ms  DeleteObjects: 0.027000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002170 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.410 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2544.
+Total: 3.530800 ms (FindLiveObjects: 0.304500 ms CreateObjectMapping: 0.109600 ms MarkObjects: 3.084200 ms  DeleteObjects: 0.030800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002744 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.533 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2548.
+Total: 3.561400 ms (FindLiveObjects: 0.419300 ms CreateObjectMapping: 0.128900 ms MarkObjects: 2.992300 ms  DeleteObjects: 0.019000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 591.745542 seconds.
+  path: Assets/Animation/Player/Red hood/Right Slash.anim
+  artifactKey: Guid(11421004aa3e69a4a9ac4d614846dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/Right Slash.anim using Guid(11421004aa3e69a4a9ac4d614846dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72711be7889fc87845c2b9f097fc1e0d') in 0.021909 seconds
+  Import took 0.026187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000935 seconds.
+  path: Assets/Animation/Player/Red hood/Right Slash.anim
+  artifactKey: Guid(11421004aa3e69a4a9ac4d614846dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Red hood/Right Slash.anim using Guid(11421004aa3e69a4a9ac4d614846dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72711be7889fc87845c2b9f097fc1e0d') in 0.005744 seconds
+  Import took 0.010230 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.435 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2552.
+Total: 3.764800 ms (FindLiveObjects: 0.508900 ms CreateObjectMapping: 0.234000 ms MarkObjects: 2.995400 ms  DeleteObjects: 0.025000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002019 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.139 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2556.
+Total: 3.127100 ms (FindLiveObjects: 0.418200 ms CreateObjectMapping: 0.134000 ms MarkObjects: 2.549900 ms  DeleteObjects: 0.022900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.398 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2560.
+Total: 3.275600 ms (FindLiveObjects: 0.354300 ms CreateObjectMapping: 0.075000 ms MarkObjects: 2.821400 ms  DeleteObjects: 0.023800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001713 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.326 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2564.
+Total: 4.302500 ms (FindLiveObjects: 0.392600 ms CreateObjectMapping: 0.118700 ms MarkObjects: 3.756500 ms  DeleteObjects: 0.032700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
