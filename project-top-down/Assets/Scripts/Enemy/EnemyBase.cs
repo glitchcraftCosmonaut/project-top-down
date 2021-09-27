@@ -8,21 +8,28 @@ public class EnemyBase : MonoBehaviour
 
     [SerializeField] private string enemyName;
     [SerializeField] protected private float moveSpeed;
-    private float healthPoint;
-    [SerializeField] private float maxHealthPoint;
+    // private float healthPoint;
+    // [SerializeField] private float maxHealthPoint;
 
     protected private Transform target;//The Target is our player
     [SerializeField] protected private float distance;
     private SpriteRenderer sp;
 
-    public Image hpImage;//Red Health Bar
-    public Image hpEffectImage;//White Health Bar Hurting Effect
+    protected Animator anim;
+
+    // public Image hpImage;//Red Health Bar
+    // public Image hpEffectImage;//White Health Bar Hurting Effect
+    [SerializeField] private Material hurtMat;
+    private Material defaultMat;
+    public bool isDead;
 
     private void Start()
     {
-        healthPoint = maxHealthPoint;
+        // healthPoint = maxHealthPoint;
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         sp = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
+        defaultMat = GetComponent<SpriteRenderer>().material;
 
         Introduction();
     }
@@ -31,20 +38,15 @@ public class EnemyBase : MonoBehaviour
     {
         TurnDirection();
 
-        if(healthPoint <= 0)
-        {
-            Death();
-        }
+        // if(healthPoint <= 0)
+        // {
+        //     Death();
+        // }
 
-        Attack();
+        // Attack();
+        
 
-        //MARKER TEST THE HEALTH BAR
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            healthPoint -= 10;
-        }
-
-        DisplayHpBar();//MARKER REMOVE LATER if you have one Hurt Method (OPTIONAL)
+        // DisplayHpBar();//MARKER REMOVE LATER if you have one Hurt Method (OPTIONAL)
     }
 
     private void FixedUpdate()
@@ -54,7 +56,7 @@ public class EnemyBase : MonoBehaviour
 
     protected virtual void Introduction()
     {
-        Debug.Log("My Name is " + enemyName + ", HP: " + healthPoint + ", moveSpeed: " + moveSpeed);
+        // Debug.Log("My Name is " + enemyName + ", HP: " + healthPoint + ", moveSpeed: " + moveSpeed);
     }
 
     protected virtual void Move()
@@ -77,28 +79,42 @@ public class EnemyBase : MonoBehaviour
         }
     }
 
-    protected virtual void Attack()
-    {
-        Debug.Log(enemyName + " is Attacking");
-    }
+    // protected virtual void Attack()
+    // {
+    //     Debug.Log(enemyName + " is Attacking");
+    // }
 
     protected virtual void Death()
     {
         Destroy(gameObject);
     }
 
-    protected virtual void DisplayHpBar()
-    {
-        hpImage.fillAmount = healthPoint / maxHealthPoint;
+    // protected virtual void DisplayHpBar()
+    // {
+    //     hpImage.fillAmount = healthPoint / maxHealthPoint;
 
-        if(hpEffectImage.fillAmount > hpImage.fillAmount)
+    //     if(hpEffectImage.fillAmount > hpImage.fillAmount)
+    //     {
+    //         hpEffectImage.fillAmount -= 0.005f;//Delay Effect
+    //     }
+    //     else
+    //     {
+    //         hpEffectImage.fillAmount = hpImage.fillAmount;//STOP continue Decreasing 
+    //     }
+    // }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Weapon" && !isDead)
         {
-            hpEffectImage.fillAmount -= 0.005f;//Delay Effect
+            StartCoroutine(HurtEffect());
         }
-        else
-        {
-            hpEffectImage.fillAmount = hpImage.fillAmount;//STOP continue Decreasing 
-        }
+    }
+
+    IEnumerator HurtEffect()
+    {
+        sp.material = hurtMat;
+        yield return new WaitForSeconds(0.2f);
+        sp.material = defaultMat;
     }
 
 }

@@ -6,16 +6,34 @@ public class PlayerController : MonoBehaviour
 {   
     public Rigidbody2D playerRigidbody;
     [SerializeField]private float moveSpeed;
+
+    public GameObject healthBar;
+
+    //combat
     private float attackTime = 0.25f;
     private float attackCounter = 0.25f;
-    private bool isAttacking;
+    public bool isAttacking;
+
+    //else
     public Animator animator;
     Vector2 movement;
+    EnemyDamage enemyDamage;
+
+
+    //sprite attacked
+    private SpriteRenderer sp;
+    [SerializeField] private Material hurtMat;
+    private Material defaultMat;
+    public bool isDead;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        enemyDamage = GetComponent<EnemyDamage>();
+        sp = GetComponent<SpriteRenderer>();
+        defaultMat = GetComponent<SpriteRenderer>().material;
+        // healthBar = GetComponent<GameObject>();
+
     }
 
     // Update is called once per frame
@@ -58,5 +76,20 @@ public class PlayerController : MonoBehaviour
     {
         playerRigidbody.MovePosition(playerRigidbody.position + movement * moveSpeed * Time.deltaTime);
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Enemy Hit" && !isDead)
+        {
+            StartCoroutine(HurtEffect());
+        }
+    }
+
+    IEnumerator HurtEffect()
+    {
+        sp.material = hurtMat;
+        yield return new WaitForSeconds(0.2f);
+        sp.material = defaultMat;
+    }
+    
     
 }

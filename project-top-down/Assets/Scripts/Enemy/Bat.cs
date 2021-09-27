@@ -6,12 +6,11 @@ public class Bat : EnemyBase
 {
     public Transform wayPoint01, wayPoint02;
     private Transform wayPointTarget;
-
+    [SerializeField] private float attackRange;
     private void Awake()
     {
         wayPointTarget = wayPoint01;//At the beginning, bat move to the right waypoint
     }
-
     protected override void Introduction()
     {
         //base.Introduction();
@@ -22,28 +21,53 @@ public class Bat : EnemyBase
     {
         base.Move();
 
-        //MARKER Override Part
-        if(Vector2.Distance(transform.position, target.position) > distance)
+        if(!isDead)
         {
-            //When we reached at the waypoint01, we have to mvoe to the waypoint 02
-            if(Vector2.Distance(transform.position, wayPoint01.position) < 0.01f)
+        //MARKER Override Part
+            if(Vector2.Distance(transform.position, target.position) > distance)
             {
-                wayPointTarget = wayPoint02;
-            }
+                //When we reached at the waypoint01, we have to mvoe to the waypoint 02
+                if(Vector2.Distance(transform.position, wayPoint01.position) < 0.01f)
+                {
+                    wayPointTarget = wayPoint02;
+                }
 
-            if(Vector2.Distance(transform.position, wayPoint02.position) < 0.01f)
+                if(Vector2.Distance(transform.position, wayPoint02.position) < 0.01f)
+                {
+                    wayPointTarget = wayPoint01;
+                }
+
+                transform.position = Vector2.MoveTowards(transform.position, wayPointTarget.position, moveSpeed * Time.deltaTime);
+            }
+            if (GetComponentInChildren<HealthBar>().hp <= 0)
             {
-                wayPointTarget = wayPoint01;
+                isDead = true;
+                GetComponent<Collider2D>().enabled = false;
+                EventSystem.instance.CameraShakeEvent(0.2f);//MARKER OB PATTERN
+                Destroy(gameObject);
+                return;
             }
-
-            transform.position = Vector2.MoveTowards(transform.position, wayPointTarget.position, moveSpeed * Time.deltaTime);
+            if (Vector2.Distance(transform.position, target.position) >= attackRange)
+            {
+                anim.SetBool("isAttacking", false);
+            }
+            else
+            {
+                anim.SetBool("isAttacking", true);
+            }
+            Attack();
         }
     }
 
-    protected override void Attack()
+    public void Attack()
     {
-        
+        if (Vector2.Distance(transform.position, target.position) >= attackRange)
+        {
+            anim.SetBool("isAttacking", false);
+        }
+        else
+        {
+            anim.SetBool("isAttacking", true);
+        }
     }
-
-
 }
