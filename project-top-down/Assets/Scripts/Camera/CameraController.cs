@@ -12,7 +12,7 @@ public class CameraController : MonoBehaviour
     private float shakeAmplitude;//How much Camera would shake
     private Vector3 shakeActive;//Camera Shake Position
 
-    //public bool isShaked;//MARKER Once this Boolean value is true, the CAMERA will SHAKE SHAKE. This variable will be used on other scripts
+    // public bool isShaked;//MARKER Once this Boolean value is true, the CAMERA will SHAKE SHAKE. This variable will be used on other scripts
     
     
     public Transform target;
@@ -21,34 +21,61 @@ public class CameraController : MonoBehaviour
     private Vector3 offset;
 
     private Vector3 targetPos;
-
-
-    private void Start()
+    public static CameraController instance;
+    public static CameraController MyInstance
     {
-        if (target == null) return;
-
-        offset = transform.position - target.position;
+        get
+        {
+            if(instance == null)
+            {
+                instance = FindObjectOfType<CameraController>();
+            }
+            return instance;
+        }
     }
 
-    private void OnEnable()
+    void Awake()
     {
-        EventSystem.cameraShakeEvent += CameraShake;
+        if(instance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            instance = this;
+        }
+        else if(instance != this)
+        {
+            Destroy(gameObject);
+        }
+        
     }
 
-    private void OnDisable()
-    {
-        EventSystem.cameraShakeEvent -= CameraShake;
-    }
 
-    private void Update()
-    {
-        // RestrictCamera();
-        ShakeCamera();
-         if (target == null) return;
+    // private void Start()
+    // {
+    //     // if (target == null) return;
 
-        targetPos = target.position + offset;
-        transform.position = Vector3.Lerp(transform.position, targetPos, lerpSpeed * Time.deltaTime);
-    }
+    //     offset = transform.position - target.position;
+    //     // MyZ = transform.position.z;
+    // }
+
+    // private void OnEnable()
+    // {
+    //     EventSystem.cameraShakeEvent += CameraShake;
+    // }
+
+    // private void OnDisable()
+    // {
+    //     EventSystem.cameraShakeEvent -= CameraShake;
+    // }
+
+    // private void Update()
+    // {
+    //     // RestrictCamera();
+    //     ShakeCamera();
+    //     if (target == null) return;
+
+    //     targetPos = target.position + offset;
+    //     transform.position = Vector3.Lerp(transform.position, targetPos, lerpSpeed * Time.deltaTime);
+    // }
 
     //MARKER Limit the Camera Range according to the environment
     // private void RestrictCamera()

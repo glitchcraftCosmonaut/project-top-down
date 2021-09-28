@@ -10,7 +10,7 @@ public class EnemyDamage : MonoBehaviour
         if(other.tag == "Enemy")
         {
             other.GetComponentInChildren<HealthBar>().hp -= 20;
-            EventSystem.instance.CameraShakeEvent(0.2f);
+            CinemachineShake.Instance.ShakeCamera(5f, 0.1f);
         }
     }
 }

@@ -2,24 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bat : EnemyBase
+public class Bat : Enemy
 {
     public Transform wayPoint01, wayPoint02;
     private Transform wayPointTarget;
     [SerializeField] private float attackRange;
+    [HideInInspector]
+    public float batPositionX, batPositionY;
     private void Awake()
     {
         wayPointTarget = wayPoint01;//At the beginning, bat move to the right waypoint
     }
     protected override void Introduction()
     {
-        //base.Introduction();
-        Debug.Log("Hi This is BATMAN!");
+        // Debug.Log("Hi This is bat!");
     }
 
     protected override void Move()
     {
         base.Move();
+        batPositionX = transform.position.x;
+        batPositionY = transform.position.y;
 
         if(!isDead)
         {
@@ -43,7 +46,8 @@ public class Bat : EnemyBase
             {
                 isDead = true;
                 GetComponent<Collider2D>().enabled = false;
-                EventSystem.instance.CameraShakeEvent(0.2f);//MARKER OB PATTERN
+                // EventSystem.instance.CameraShakeEvent(0.2f);//MARKER OB PATTERN
+                CinemachineShake.Instance.ShakeCamera(5f, 0.1f);
                 Destroy(gameObject);
                 return;
             }
@@ -59,8 +63,9 @@ public class Bat : EnemyBase
         }
     }
 
-    public void Attack()
+    protected override void Attack()
     {
+        base.Attack();
         if (Vector2.Distance(transform.position, target.position) >= attackRange)
         {
             anim.SetBool("isAttacking", false);
@@ -70,4 +75,5 @@ public class Bat : EnemyBase
             anim.SetBool("isAttacking", true);
         }
     }
+    
 }
