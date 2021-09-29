@@ -424,6 +424,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameMenuImage: {fileID: 0}
+  pauseMenuImage: {fileID: 0}
+  onSavePoint: 0
+  sceneName: 
 --- !u!1 &7947911505844789836
 GameObject:
   m_ObjectHideFlags: 0

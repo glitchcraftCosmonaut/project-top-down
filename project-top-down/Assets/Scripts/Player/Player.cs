@@ -80,7 +80,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+       if(CanDoActions()==false) return;
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
@@ -118,6 +118,7 @@ public class Player : MonoBehaviour
         if (GetComponentInChildren<HealthBar>().hp <= 0)
         {
             isDead = true;
+            GameManager.instance.isGameOver = true;
             GetComponent<Collider2D>().enabled = false;
             EventSystem.instance.CameraShakeEvent(0.2f);//MARKER OB PATTERN
             // FindObjectOfType<GameManager>().EndGame();
@@ -163,6 +164,24 @@ public class Player : MonoBehaviour
     public void CloseInteractableIcon()
     {
         interactIcon.SetActive(false);
+    }
+    public bool CanDoActions()
+    {
+        bool can = true;
+        // if(FindObjectOfType<InventorySystem>().isOpen)
+        // {
+        //     can = false;
+        // }
+        if(GameManager.instance.isPaused)
+        {
+            can = false;
+        }
+        /*if(FindObjectOfType<SceneControl>().canMove)
+        {
+            can = false;
+        }*/
+        
+        return can;
     }
 
     private void CheckInteraction()

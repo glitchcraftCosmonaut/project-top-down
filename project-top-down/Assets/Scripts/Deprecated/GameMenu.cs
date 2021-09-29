@@ -10,11 +10,11 @@ public class GameMenu : MonoBehaviour
 {
     public Image gameMenuImage;
     public Image restartMenuImage;
-    public Image saveMenuImage;
-    private bool isGameEnded = false;
+    // public Image saveMenuImage;
+    // private bool isGameEnded = false;
     private int sceneToContinue;
 
-    public Toggle BGMToggle;
+    // public Toggle BGMToggle;
     private AudioSource BGMSource;
 
     private Player player;
@@ -55,7 +55,7 @@ public class GameMenu : MonoBehaviour
         //     GameOver();
         // }
 
-        BGMManager();
+        // BGMManager();
     }
 
     public void Resume()
@@ -101,35 +101,35 @@ public class GameMenu : MonoBehaviour
     }
 
     //MARKER THIS FUNCTION WILL BE TRIGGER ON THE TOGGLE EVENT LISTENER
-    public void BGMToggleButton()
-    {
-        if(BGMToggle.isOn)
-        {
-            //OPEN THE BGM
-            PlayerPrefs.SetInt("BGM", 1);//1 means open and 0 means close.(CUSTOMIZED)
-            //Debug.Log(PlayerPrefs.GetInt("BGM"));
-        }
-        else
-        {
-            //CLOSE THE BGM
-            PlayerPrefs.SetInt("BGM", 0);
-            //Debug.Log(PlayerPrefs.GetInt("BGM"));
-        }
-    }
+    // public void BGMToggleButton()
+    // {
+    //     if(BGMToggle.isOn)
+    //     {
+    //         //OPEN THE BGM
+    //         PlayerPrefs.SetInt("BGM", 1);//1 means open and 0 means close.(CUSTOMIZED)
+    //         //Debug.Log(PlayerPrefs.GetInt("BGM"));
+    //     }
+    //     else
+    //     {
+    //         //CLOSE THE BGM
+    //         PlayerPrefs.SetInt("BGM", 0);
+    //         //Debug.Log(PlayerPrefs.GetInt("BGM"));
+    //     }
+    // }
 
-    private void BGMManager()
-    {
-        if(PlayerPrefs.GetInt("BGM") == 1)
-        {
-            BGMToggle.isOn = true;
-            BGMSource.enabled = true;//PLAY THE SOURCE
-        }
-        else if(PlayerPrefs.GetInt("BGM") == 0)
-        {
-            BGMToggle.isOn = false;
-            BGMSource.enabled = false;
-        }
-    }
+    // private void BGMManager()
+    // {
+    //     if(PlayerPrefs.GetInt("BGM") == 1)
+    //     {
+    //         BGMToggle.isOn = true;
+    //         BGMSource.enabled = true;//PLAY THE SOURCE
+    //     }
+    //     else if(PlayerPrefs.GetInt("BGM") == 0)
+    //     {
+    //         BGMToggle.isOn = false;
+    //         BGMSource.enabled = false;
+    //     }
+    // }
 
     public void NewGame()
     {

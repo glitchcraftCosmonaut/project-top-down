@@ -16,7 +16,7 @@ public abstract class InteractionSystem : MonoBehaviour
     
     private void Reset() 
     {
-        GetComponent<BoxCollider2D>().isTrigger = true;
+        // GetComponent<BoxCollider2D>().isTrigger = true;
     }
     public abstract void Interact();
 
@@ -24,14 +24,16 @@ public abstract class InteractionSystem : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            collision.GetComponent<Player>().OpenInteractableIcon();
+            // collision.GetComponent<Player>().OpenInteractableIcon();
+            Player.MyInstance.OpenInteractableIcon();
         }
     }
     private void OnTriggerExit2D(Collider2D collision) 
     {
         if(collision.CompareTag("Player"))
         {
-            collision.GetComponent<Player>().CloseInteractableIcon();
+            // collision.GetComponent<Player>().CloseInteractableIcon();
+            Player.MyInstance.CloseInteractableIcon();
         }
     }
 }

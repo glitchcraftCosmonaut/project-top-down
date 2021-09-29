@@ -7,13 +7,23 @@ using UnityEngine.UI;
 public class Game : MonoBehaviour
 {
     private PlayerSave playerSave;
+    private int sceneToContinue;
     public Image gameMenuImage;
-    public Toggle BGMToggle;
+    public Image restartMenuImage;
+    // public Toggle BGMToggle;
+    public string sceneName;
+    public PlayerSaveData playerDatas;
+    public CameraSaveData playerCams;
     private AudioSource BGMSource;
+    public bool isGameOver;
+    public SavePoint savePoint;
+    public static Game instance;
 
     private void Start() 
     {
+        savePoint = FindObjectOfType<SavePoint>();
         gameMenuImage.gameObject.SetActive(false);
+        restartMenuImage.gameObject.SetActive(false);
         // restartMenuImage.gameObject.SetActive(false);
 
         BGMSource = GetComponent<AudioSource>();
@@ -21,19 +31,28 @@ public class Game : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(!isGameOver)
         {
-            if(GameManager.instance.isPaused)
+            if(Input.GetKeyDown(KeyCode.Escape) && savePoint.onSavePoint == false)
             {
-                Resume();
+                if(GameManager.instance.isPaused)
+                {
+                    Resume();
+                    
+                }
+                else
+                {
+                    Pause();
+                }
             }
-            else
+            if(GameManager.instance.isGameOver == true)
             {
-                Pause();
+                GameOver();
             }
         }
+        
 
-        BGMManager();
+        // BGMManager();
     }
 
     public void Resume()
@@ -59,47 +78,83 @@ public class Game : MonoBehaviour
     public void Load()
     {
         GameEvents.OnLoadInitiated();
+        
         // playerSave.Load();
         // inventory.Load();
         // collectibleItemSet.Load()
         Debug.Log("Clicked");
     }
-    private void BGMManager()
+    public void Restart()
     {
-        if(PlayerPrefs.GetInt("BGM") == 1)
+        
+        if(SaveLoad.SaveExists("PlayerData") && SaveLoad.SaveExists("CameraData") && SaveLoad.SaveExists("SavedScene"))
         {
-            BGMToggle.isOn = true;
-            BGMSource.enabled = true;//PLAY THE SOURCE
-        }
-        else if(PlayerPrefs.GetInt("BGM") == 0)
-        {
-            BGMToggle.isOn = false;
-            BGMSource.enabled = false;
-        }
-    }
-    public void BGMToggleButton()
-    {
-        if(BGMToggle.isOn)
-        {
-            //OPEN THE BGM
-            PlayerPrefs.SetInt("BGM", 1);//1 means open and 0 means close.(CUSTOMIZED)
-            //Debug.Log(PlayerPrefs.GetInt("BGM"));
+            SaveLoad.Load<PlayerSaveData>("PlayerData");
+            SaveLoad.Load<CameraSaveData>("CameraData");
+            SceneManager.LoadScene("Scene 1");
+            restartMenuImage.gameObject.SetActive(false);
+            Time.timeScale = 1.0f;
+            GameManager.instance.isGameOver = false;
         }
         else
         {
-            //CLOSE THE BGM
-            PlayerPrefs.SetInt("BGM", 0);
-            //Debug.Log(PlayerPrefs.GetInt("BGM"));
+            SceneManager.LoadScene("Scene 1");
+            restartMenuImage.gameObject.SetActive(false);
+            Time.timeScale = 1.0f;
+            GameManager.instance.isGameOver = false;
         }
+  
     }
+    // private void BGMManager()
+    // {
+    //     if(PlayerPrefs.GetInt("BGM") == 1)
+    //     {
+    //         BGMToggle.isOn = true;
+    //         BGMSource.enabled = true;//PLAY THE SOURCE
+    //     }
+    //     else if(PlayerPrefs.GetInt("BGM") == 0)
+    //     {
+    //         BGMToggle.isOn = false;
+    //         BGMSource.enabled = false;
+    //     }
+    // }
+    // public void BGMToggleButton()
+    // {
+    //     if(BGMToggle.isOn)
+    //     {
+    //         //OPEN THE BGM
+    //         PlayerPrefs.SetInt("BGM", 1);//1 means open and 0 means close.(CUSTOMIZED)
+    //         //Debug.Log(PlayerPrefs.GetInt("BGM"));
+    //     }
+    //     else
+    //     {
+    //         //CLOSE THE BGM
+    //         PlayerPrefs.SetInt("BGM", 0);
+    //         //Debug.Log(PlayerPrefs.GetInt("BGM"));
+    //     }
+    // }
+        public void GameOver()
+        {
+            restartMenuImage.gameObject.SetActive(true);
+            Time.timeScale = 0.0f;
+            Destroy(CameraController.instance.gameObject);
+            Destroy(GameManager.instance.gameObject);
+            Destroy(EventSystem.instance.gameObject);
+            BGMSource.Stop();
+            isGameOver = true;
+            GameManager.instance.isGameOver = true;
+        }
     public void QuitToMenu()
     {
         SceneManager.LoadScene("MainMenu");
+        // FindObjectOfType<SceneFader>().FadeTo(sceneName);
         Destroy(Player.instance.gameObject);
         Destroy(CameraController.instance.gameObject);
         Destroy(GameManager.instance.gameObject);
         Destroy(EventSystem.instance.gameObject);
+        isGameOver = false;
         GameManager.instance.isPaused = false;
+        GameManager.instance.isGameOver = false;
     }
 
     public void DeleteAllProgress()

@@ -27,14 +27,17 @@ public class MainMenuUI : MonoBehaviour
         }
 
         SceneManager.LoadScene("Scene 1");
-        GameManager.instance.isPaused = false;
+        Time.timeScale = 1.0f;
     }
     public void LoadGame()
     {
+        // SaveLoad.Load<PlayerSaveData>("PlayerData");
+        // SaveLoad.Load<CameraSaveData>("CameraData");
         sceneToContinue = SaveLoad.Load<int>("SavedScene");
         if(sceneToContinue != 0)
         {
             SceneManager.LoadScene(sceneToContinue);
+            Time.timeScale = 1.0f;
         }
         else
         {
