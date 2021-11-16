@@ -17,16 +17,11 @@ public class Witch : Enemy
     [HideInInspector]
     public float witchPositionX, witchPositionY;
 
-    protected override void Introduction()
-    {
-        base.Introduction();
-    }
-
     protected override void Move()
     {
         witchPositionX = transform.position.x;
         witchPositionY = transform.position.y;
-        //base.Move();//MARKER Give up the base Move Function!!
+        base.Move();//MARKER Give up the base Move Function!!
         RandomMove();
         if (GetComponentInChildren<HealthBar>().hp <= 0)
             {

@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     private float attackTime = 0.25f;
     private float attackCounter = 0.25f;
     public bool isAttacking;
+    private Vector3 targetPos;
 
     //else
     public Animator animator;
@@ -111,7 +112,16 @@ public class Player : MonoBehaviour
 
         if(Input.GetMouseButtonDown(0))
         {
+            Vector2 playerPos = transform.position;
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 direction = mousePos - playerPos;
+            targetPos = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x,
+                                         Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 0);
+            transform.position = Vector2.MoveTowards(transform.position, targetPos, moveSpeed * 15 * Time.deltaTime);
             attackCounter = attackTime;
+            
+            animator.SetFloat("LastHorizontal", direction.x);
+            animator.SetFloat("LastVertical", direction.y);
             animator.SetBool("isAttacking",true);
             isAttacking = true;
         }

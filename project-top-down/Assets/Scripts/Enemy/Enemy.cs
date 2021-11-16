@@ -57,21 +57,11 @@ public class Enemy : MonoBehaviour
         sp = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         defaultMat = GetComponent<SpriteRenderer>().material;
-
-        Introduction();
     }
 
     private void Update()
     {
-        // enemyPositionX = transform.position.x;
-        // enemyPositionX = transform.position.y;
         TurnDirection();
-
-        // if(healthPoint <= 0)
-        // {
-        //     Death();
-        // }
-
         Attack();
         
 
@@ -81,11 +71,6 @@ public class Enemy : MonoBehaviour
     private void FixedUpdate()
     {
         Move();
-    }
-
-    protected virtual void Introduction()
-    {
-        // Debug.Log("My Name is " + enemyName + ", HP: " + healthPoint + ", moveSpeed: " + moveSpeed);
     }
 
     protected virtual void Move()
@@ -119,19 +104,6 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // protected virtual void DisplayHpBar()
-    // {
-    //     hpImage.fillAmount = healthPoint / maxHealthPoint;
-
-    //     if(hpEffectImage.fillAmount > hpImage.fillAmount)
-    //     {
-    //         hpEffectImage.fillAmount -= 0.005f;//Delay Effect
-    //     }
-    //     else
-    //     {
-    //         hpEffectImage.fillAmount = hpImage.fillAmount;//STOP continue Decreasing 
-    //     }
-    // }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Weapon" && !isDead)

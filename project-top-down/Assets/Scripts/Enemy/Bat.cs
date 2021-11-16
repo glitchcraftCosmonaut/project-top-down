@@ -13,11 +13,6 @@ public class Bat : Enemy
     {
         wayPointTarget = wayPoint01;//At the beginning, bat move to the right waypoint
     }
-    protected override void Introduction()
-    {
-        // Debug.Log("Hi This is bat!");
-    }
-
     protected override void Move()
     {
         base.Move();
