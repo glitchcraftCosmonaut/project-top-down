@@ -91,14 +91,15 @@ public class Game : MonoBehaviour
         {
             SaveLoad.Load<PlayerSaveData>("PlayerData");
             SaveLoad.Load<CameraSaveData>("CameraData");
-            SceneManager.LoadScene("Scene 1");
+            SceneManager.LoadScene(SaveLoad.Load<int>("SavedScene"));
+            // SaveLoad.Load<int>("SavedScene");
             restartMenuImage.gameObject.SetActive(false);
             Time.timeScale = 1.0f;
             GameManager.instance.isGameOver = false;
         }
         else
         {
-            SceneManager.LoadScene("Scene 1");
+            SceneManager.LoadScene(SaveLoad.Load<int>("SavedScene"));
             restartMenuImage.gameObject.SetActive(false);
             Time.timeScale = 1.0f;
             GameManager.instance.isGameOver = false;

@@ -26,6 +26,14 @@ public class Player : MonoBehaviour
     [HideInInspector]
     public int currentSceneIndex;
 
+    //dash movement
+    private float activeMoveSpeed;
+    public float dashSpeed;
+    public float dashLength = 0.5f, dashCooldown = 1f;
+
+    private float dashCounter;
+    private float dashCoolCounter;
+
 
     //sprite attacked
     private SpriteRenderer sp;
@@ -71,7 +79,7 @@ public class Player : MonoBehaviour
         sp = GetComponent<SpriteRenderer>();
         defaultMat = GetComponent<SpriteRenderer>().material;
         boxCollider2D = GetComponent<BoxCollider2D>();
-        
+        activeMoveSpeed = moveSpeed;
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         // audioClip = GetComponent<AudioSource>();
         // healthBar = GetComponent<GameObject>();
@@ -89,10 +97,53 @@ public class Player : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
+        if(Input.GetMouseButtonDown(0))
+        {
+            Vector2 playerPos = transform.position;
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 direction = mousePos - playerPos;
+            targetPos = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x,
+                                         Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 0);
+            transform.position = Vector2.MoveTowards(transform.position, targetPos, activeMoveSpeed * 1 * Time.deltaTime);
+            attackCounter = attackTime;
+            
+            animator.SetFloat("LastHorizontal", direction.x);
+            animator.SetFloat("LastVertical", direction.y);
+            animator.SetBool("isAttacking",true);
+            isAttacking = true;
+        }
+
         if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == -1 || Input.GetAxisRaw("Vertical") == 1)
         {
             animator.SetFloat("LastHorizontal", Input.GetAxisRaw("Horizontal"));
             animator.SetFloat("LastVertical", Input.GetAxisRaw("Vertical"));
+        }
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            Vector2 dashDirection = transform.position;
+            if(dashCounter <= 0 && dashCoolCounter <= 0)
+            {
+                animator.SetBool("isDashing", true);
+                activeMoveSpeed = dashSpeed;
+                dashCounter = dashLength;
+            }
+            
+        }
+        if(dashCounter > 0)
+        {
+            dashCounter -= Time.deltaTime;
+            if(dashCounter <= 0)
+            {
+                activeMoveSpeed = moveSpeed;
+                animator.SetBool("isDashing", false);
+                dashCoolCounter = dashCooldown;
+            }
+        }
+        
+        if(dashCoolCounter > 0)
+        {
+            dashCoolCounter -= Time.deltaTime;
         }
 
         if(isAttacking)
@@ -110,21 +161,7 @@ public class Player : MonoBehaviour
             CheckInteraction();
         }
 
-        if(Input.GetMouseButtonDown(0))
-        {
-            Vector2 playerPos = transform.position;
-            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 direction = mousePos - playerPos;
-            targetPos = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x,
-                                         Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 0);
-            transform.position = Vector2.MoveTowards(transform.position, targetPos, moveSpeed * 15 * Time.deltaTime);
-            attackCounter = attackTime;
-            
-            animator.SetFloat("LastHorizontal", direction.x);
-            animator.SetFloat("LastVertical", direction.y);
-            animator.SetBool("isAttacking",true);
-            isAttacking = true;
-        }
+        
         if (GetComponentInChildren<HealthBar>().hp <= 0)
         {
             isDead = true;
@@ -139,7 +176,7 @@ public class Player : MonoBehaviour
     
     private void FixedUpdate() 
     {
-        playerRigidbody.MovePosition(playerRigidbody.position + movement * moveSpeed * Time.deltaTime);
+        playerRigidbody.MovePosition(playerRigidbody.position + movement * activeMoveSpeed * Time.deltaTime);
     }
     private void OnTriggerEnter2D(Collider2D other)
     {

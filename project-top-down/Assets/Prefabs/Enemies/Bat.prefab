@@ -29,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330840070765330716}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 64.99, y: 48.02, z: 617.1616}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingOrder: 2
   m_Sprite: {fileID: 8031841115881805355, guid: 2dcbf2967c3191f43a5a0c5b1382f338,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -140,7 +140,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.017871022, y: 0.19347334}
@@ -257,12 +257,11 @@ MonoBehaviour:
   enemyName: Brain
   moveSpeed: 3
   distance: 9
+  sp: {fileID: 0}
   audioClip:
   - {fileID: -500628252934439000}
   hurtMat: {fileID: 2100000, guid: 71d1b19322973d14b9fe885f87060295, type: 2}
   isDead: 0
-  wayPoint01: {fileID: 0}
-  wayPoint02: {fileID: 0}
   attackRange: 1
   batPositionX: 0
   batPositionY: 0

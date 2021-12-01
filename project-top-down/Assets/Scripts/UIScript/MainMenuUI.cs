@@ -26,7 +26,7 @@ public class MainMenuUI : MonoBehaviour
             SaveLoad.SeriouslyDeleteAllSaveFiles();
         }
 
-        SceneManager.LoadScene("Scene 1");
+        SceneManager.LoadScene("Scene 2");
         Time.timeScale = 1.0f;
     }
     public void LoadGame()

@@ -426,7 +426,8 @@ MonoBehaviour:
   gameMenuImage: {fileID: 0}
   pauseMenuImage: {fileID: 0}
   onSavePoint: 0
-  sceneName: 
+  sceneName: Scene 1
+  game: {fileID: 0}
 --- !u!1 &7947911505844789836
 GameObject:
   m_ObjectHideFlags: 0

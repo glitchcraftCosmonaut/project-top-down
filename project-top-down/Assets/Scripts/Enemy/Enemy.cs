@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
 
     protected private Transform target;//The Target is our player
     [SerializeField] protected private float distance;
-    private SpriteRenderer sp;
+    [SerializeField]private SpriteRenderer sp;
 
     protected Animator anim;
     public AudioSource[] audioClip = null;
@@ -61,6 +61,7 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
+        if(CanDoActions()==false) return;
         TurnDirection();
         Attack();
         
@@ -70,12 +71,13 @@ public class Enemy : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(CanDoActions()==false) return;
         Move();
     }
 
     protected virtual void Move()
     {
-        
+        // if(CanDoActions()==false) return;
         if(Vector2.Distance(transform.position, target.position) < distance)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
@@ -101,7 +103,8 @@ public class Enemy : MonoBehaviour
 
     protected virtual void Death()
     {
-        Destroy(gameObject);
+        // isDead = true;
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -122,5 +125,19 @@ public class Enemy : MonoBehaviour
     public void EnemySound()
     {
         audioClip[0].Play();
+    }
+    protected virtual bool CanDoActions()
+    {
+        bool can = true;
+        if(GameManager.instance.isPaused)
+        {
+            can = false;
+        }
+        /*if(FindObjectOfType<SceneControl>().canMove)
+        {
+            can = false;
+        }*/
+        
+        return can;
     }
 }

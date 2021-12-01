@@ -29,69 +29,70 @@ public class SavePoint : InteractionSystem
         game = FindObjectOfType<Game>();
     }
 
-    private void Update()
-    {
+    // private void Update()
+    // {
         
-        if(Input.GetKeyDown(KeyCode.Escape) && onSavePoint == true)
-        {
-            if(GameManager.instance.isPaused)
-            {
-                Resume();
-                onSavePoint = false;
-                // game.gameMenuImage.gameObject.SetActive(false);
-                // game.Resume();
-            }
-            else
-            {
-                gameMenuImage.gameObject.SetActive(true);
-                Time.timeScale = 0.0f;
-                GameManager.instance.isPaused = true;
-                onSavePoint = true;
-            }
-        }
-    }       
+    //     if(Input.GetKeyDown(KeyCode.Escape) && onSavePoint == true)
+    //     {
+    //         if(GameManager.instance.isPaused)
+    //         {
+    //             Resume();
+    //             onSavePoint = false;
+    //             // game.gameMenuImage.gameObject.SetActive(false);
+    //             // game.Resume();
+    //         }
+    //         else
+    //         {
+    //             gameMenuImage.gameObject.SetActive(true);
+    //             Time.timeScale = 0.0f;
+    //             GameManager.instance.isPaused = true;
+    //             onSavePoint = true;
+    //         }
+    //     }
+    // }       
     public override void Interact()
     {
-        if(GameManager.instance.isPaused)//If we press the escape AND the game is PAUSE
-            {
-                //We want to resume the game ASAP
-                Resume();
-            }
-            else
-            {
-                //We want to pause the game
-                //Debug.Log("PAUSE");
-                Pause();
-            }
+        // if(GameManager.instance.isPaused)//If we press the escape AND the game is PAUSE
+        //     {
+        //         //We want to resume the game ASAP
+        //         Resume();
+        //     }
+        //     else
+        //     {
+        //         //We want to pause the game
+        //         //Debug.Log("PAUSE");
+        //         Pause();
+        //     }
+        GameEvents.OnSaveInitiated();
         
     }
-    public void Resume()
-    {
-        //Debug.Log("RESUME");
-        gameMenuImage.gameObject.SetActive(false);
-        Time.timeScale = 1.0f;
-        onSavePoint = false;
-        GameManager.instance.isPaused = false;
-    }
-    public void Pause()
-    {
-        gameMenuImage.gameObject.SetActive(true);
-        Time.timeScale = 0.0f;
-        onSavePoint = true;
-        GameManager.instance.isPaused = true;
-    }
-    public void Save()
-    {
-        GameEvents.OnSaveInitiated();
-    }
-    public void Quit()
-    {
-        SceneManager.LoadScene("MainMenu");
-        Destroy(Player.instance.gameObject);
-        Destroy(CameraController.instance.gameObject);
-        Destroy(GameManager.instance.gameObject);
-        Destroy(EventSystem.instance.gameObject);
-        FindObjectOfType<SceneFader>().FadeTo(sceneName);
-        GameManager.instance.isPaused = false;
-    }
+    // public void Resume()
+    // {
+    //     //Debug.Log("RESUME");
+    //     gameMenuImage.gameObject.SetActive(false);
+    //     Time.timeScale = 1.0f;
+    //     onSavePoint = false;
+    //     GameManager.instance.isPaused = false;
+    // }
+    // public void Pause()
+    // {
+    //     gameMenuImage.gameObject.SetActive(true);
+    //     Time.timeScale = 0.0f;
+    //     onSavePoint = true;
+    //     GameManager.instance.isPaused = true;
+    // }
+    // public void Save()
+    // {
+    //     GameEvents.OnSaveInitiated();
+    // }
+    // public void Quit()
+    // {
+    //     SceneManager.LoadScene("MainMenu");
+    //     Destroy(Player.instance.gameObject);
+    //     Destroy(CameraController.instance.gameObject);
+    //     Destroy(GameManager.instance.gameObject);
+    //     Destroy(EventSystem.instance.gameObject);
+    //     FindObjectOfType<SceneFader>().FadeTo(sceneName);
+    //     GameManager.instance.isPaused = false;
+    // }
 }
