@@ -93,6 +93,7 @@ public class PhantomStalker : Enemy
             can = false;
             anim.Play("Phantom_Stalker_Death");
             GetComponentInChildren<HealthBar>().gameObject.SetActive(false);
+            audioClip[0].Stop();
 
         }
         /*if(FindObjectOfType<SceneControl>().canMove)
@@ -101,6 +102,10 @@ public class PhantomStalker : Enemy
         }*/
         
         return can;
+    }
+    public void HealthFalse()
+    {
+        GetComponentInChildren<Canvas>().gameObject.SetActive(false);
     }
     
 }

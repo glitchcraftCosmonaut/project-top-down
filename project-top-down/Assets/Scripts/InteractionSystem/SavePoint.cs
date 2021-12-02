@@ -64,6 +64,7 @@ public class SavePoint : InteractionSystem
         //         Pause();
         //     }
         GameEvents.OnSaveInitiated();
+        Player.MyInstance.GetComponentInChildren<HealthBar>().hp = 1000;
         
     }
     // public void Resume()

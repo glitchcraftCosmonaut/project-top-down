@@ -100,7 +100,7 @@ public class OwlBear : Enemy
         {
             can = false;
             anim.Play("OwlBear_Death");
-            GetComponentInChildren<HealthBar>().gameObject.SetActive(false);
+            audioClip[0].Stop();
 
         }
         /*if(FindObjectOfType<SceneControl>().canMove)
@@ -109,6 +109,10 @@ public class OwlBear : Enemy
         }*/
         
         return can;
+    }
+    public void HealthFalse()
+    {
+        GetComponentInChildren<Canvas>().gameObject.SetActive(false);
     }
     
 }

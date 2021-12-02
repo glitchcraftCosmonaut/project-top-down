@@ -9,7 +9,7 @@ public class HealthBar : MonoBehaviour
     public Image hpEffectImage;//"White Effect" Health bar Image
 
     [HideInInspector] public float hp;
-    [SerializeField] private float maxHp;
+    [SerializeField] public float maxHp;
     [SerializeField] private float hurtSpeed = 0.005f;
 
     private void Start()

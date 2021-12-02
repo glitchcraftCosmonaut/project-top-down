@@ -43,7 +43,8 @@ public class Bat : Enemy
                 GetComponent<Collider2D>().enabled = false;
                 // EventSystem.instance.CameraShakeEvent(0.2f);//MARKER OB PATTERN
                 CinemachineShake.Instance.ShakeCamera(5f, 0.1f);
-                gameObject.SetActive(false);
+                // gameObject.SetActive(false);
+                Destroy(gameObject);
                 return;
             }
             if (Vector2.Distance(transform.position, target.position) >= attackRange)

@@ -124,6 +124,7 @@ public class Enemy : MonoBehaviour
     }
     public void EnemySound()
     {
+        if(CanDoActions()==false) return;
         audioClip[0].Play();
     }
     protected virtual bool CanDoActions()

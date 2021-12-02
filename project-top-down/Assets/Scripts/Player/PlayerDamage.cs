@@ -10,7 +10,7 @@ public class PlayerDamage : MonoBehaviour
         if(other.tag == "Player")
         {
             other.GetComponentInChildren<HealthBar>().hp -= 20;
-            CinemachineShake.Instance.ShakeCamera(3f, 0.1f);
+            CinemachineShake.Instance.ShakeCamera(5f, 0.1f);
         }
     }
 }
